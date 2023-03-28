@@ -1,12 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+import Home from "./Home";
+import { Navbar } from "./Navbar";
+import {Footer} from "./Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hola desde React</h1>
-    </div>
-  );
+  return <div class="App">
+    <Navbar />
+    <Home />
+    <Footer />
+
+
+  </div>
 }
 
 export default App;
