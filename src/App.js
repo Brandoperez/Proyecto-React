@@ -1,29 +1,29 @@
 import logo from "./logo.svg";
 import "./App.css";
-import CounterContainer from "./components/Counter/CounterContainer";
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import { Navbar } from "./components/Navbar/Navbar";
 import ItemListContainer from "./components/ItemList/ItemListContainer";
-import { FetchingData } from "./components/FetchingData/FetchingData";
-
-
+import { ItemDetailContainer } from "./components/ItemDetail/ItemDetailContainer";
+import Form from "./components/Form/Form";
+import CartContainer from "./components/Cart/CartContainer";
 
 function App() {
 
-let saludo = "Hola Brando!!";
 
-
-
-
-  return <div class="App">
-    <h1>Home</h1>
-    <Navbar color="red" />
-    <ItemListContainer />
-    <CounterContainer />
-    <FetchingData />
-   
-
-
-  </div>
+  return (
+    <BrowserRouter>
+        <Routes>
+            <Route element={<Navbar />}>
+              <Route path="/" element={<ItemListContainer />} />
+              <Route path="/category/:categoryName" element={<ItemListContainer />} />
+              <Route path="/itemDetail/:id" element={<ItemDetailContainer />} />
+              <Route path="/Cart" element={<CartContainer />} />
+              <Route path="/form" element={<Form />} />
+              <Route path="*" element={<h1>La ruta seleccionada no existe.</h1>} />
+            </Route>
+        </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;

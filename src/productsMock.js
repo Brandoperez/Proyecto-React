@@ -5,7 +5,7 @@ export let products = [
         price: 2500,
         stock: 2,
         description: "Remeras 100% algodón con mensajes cristianos o el diseño de tu preferencia.",
-        category: "Remeras",
+        category: "Hombre",
         img: "https://res.cloudinary.com/dmfl5dwbb/image/upload/v1680978987/anclados/01_beug0c.jpg"
     },
     {
@@ -14,7 +14,7 @@ export let products = [
         price: 2000,
         stock: 5,
         description: "Remeras 100% algodón con mensajes cristianos o el diseño de tu preferencia.",
-        category: "Remeras",
+        category: "Hombre",
         img: "https://res.cloudinary.com/dmfl5dwbb/image/upload/v1680979569/anclados/02_yp60mo.jpg"
     },
     {
@@ -23,7 +23,7 @@ export let products = [
         price: 2500,
         stock: 10,
         description: "Remeras 100% algodón con mensajes cristianos o el diseño de tu preferencia.",
-        category: "Remeras",
+        category: "Hombre",
         img: "https://res.cloudinary.com/dmfl5dwbb/image/upload/v1680979569/anclados/03_qhlafl.jpg"
     },
     {
@@ -32,7 +32,7 @@ export let products = [
         price: 2000,
         stock: 3,
         description: "Remeras 100% algodón con mensajes cristianos o el diseño de tu preferencia.",
-        category: "Remeras",
+        category: "Hombre",
         img: "https://res.cloudinary.com/dmfl5dwbb/image/upload/v1680979569/anclados/04_ppogv0.jpg"
     },
     {
@@ -41,7 +41,7 @@ export let products = [
         price: 2500,
         stock: 6,
         description: "Remeras 100% algodón con mensajes cristianos o el diseño de tu preferencia.",
-        category: "Remeras",
+        category: "Hombre",
         img: "https://res.cloudinary.com/dmfl5dwbb/image/upload/v1680979596/anclados/05_d9ttbe.jpg"
     },
     {
@@ -49,8 +49,8 @@ export let products = [
         title: "Remera Cristiana",
         price: 2500,
         stock: 8,
-        description: "Remeras 100% algodón con mensajes cristianos o el diseño de tu preferencia.",
-        category: "Remeras",
+        description: "Remera Roja.",
+        category: "Hombre",
         img: "https://res.cloudinary.com/dmfl5dwbb/image/upload/v1680979596/anclados/06_mzhqha.jpg"
     },
     {
@@ -59,7 +59,7 @@ export let products = [
         price: 2000,
         stock: 3,
         description: "Remeras 100% algodón con mensajes cristianos o el diseño de tu preferencia.",
-        category: "Remeras",
+        category: "Hombre",
         img: "https://res.cloudinary.com/dmfl5dwbb/image/upload/v1680979596/anclados/07_guwl5i.jpg"
     },
     {
@@ -68,7 +68,7 @@ export let products = [
         price: 2500,
         stock: 15,
         description: "Remeras 100% algodón con mensajes cristianos o el diseño de tu preferencia.",
-        category: "Remeras",
+        category: "Mujer",
         img: "https://res.cloudinary.com/dmfl5dwbb/image/upload/v1680979597/anclados/08_dlhr2q.jpg"
     }
 ];
